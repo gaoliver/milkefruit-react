@@ -23,7 +23,6 @@
   "rules": {
     "space-before-function-paren": "off",
     "react/prop-types": "off",
-    "single-quotes": "true",
     "no-use-before-define": "off",
     "semi": "off",
     "quotes": "off"
