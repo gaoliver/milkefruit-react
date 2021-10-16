@@ -31,4 +31,11 @@ header {
         color: white;
         text-decoration: underline;
     }
+    .delivery a {
+        background-color: var(--secondary);
+        padding-inline: 30px;
+        padding-block: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 3px #0005;
+    }
 }

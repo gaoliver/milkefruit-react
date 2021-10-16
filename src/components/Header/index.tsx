@@ -24,6 +24,9 @@ function Header() {
         <li>
           <a href="#">Restaurante</a>
         </li>
+        <li className="delivery">
+          <a href="#">Delivery</a>
+        </li>
       </ul>
     </header>
   );
