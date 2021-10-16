@@ -37,5 +37,11 @@ header {
         padding-block: 10px;
         border-radius: 5px;
         box-shadow: 0 0 3px #0005;
+        transition: ease-in-out 0.5s;
+    }
+    .delivery a:hover {
+        text-decoration: none;
+        padding-inline: 40px;
+        padding-block: 20px;
     }
 }
