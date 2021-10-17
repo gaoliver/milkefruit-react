@@ -1,0 +1,35 @@
+.sidebar {
+    display: flex;
+    position: absolute;
+    z-index: 9999999;
+    width: 85%;
+    height: 100vh;
+    background-color: var(--primary);
+    justify-content: center;
+    padding-top: 200px;
+    box-shadow: 0 0 5px black;
+    transform: translateX(-110%);
+    transition: ease-in-out 0.5s;
+    ul {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        justify-content: space-between;
+        text-align: center;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    ul li {
+        list-style: none;
+        font-size: 16pt;
+    }
+    ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+.active {
+    transform: translateX(0);
+}

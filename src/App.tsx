@@ -3,6 +3,7 @@ import './styles/App.scss';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Sidebar from './components/Sidebar';
 
 import Home from './views/Home';
 
@@ -10,7 +11,10 @@ function App() {
   return (
     <div className="body-container">
       <Header />
-      <Home />
+      <Sidebar />
+      <div className="view-content">
+        <Home />
+      </div>
       <Footer />
     </div>
   );

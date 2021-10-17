@@ -4,3 +4,8 @@
     min-height: 100vh;
     background-color: var(--background);
 }
+
+.view-content {
+    display: flex;
+    flex: 1
+}

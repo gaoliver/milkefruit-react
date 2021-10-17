@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className="container-fluid">
       <div className="row justify-content-between">
-        <div className="col-5 pages">
+        <div className="col-6 col-sm-5 pages">
           <h5>Páginas</h5>
           <ul>
             <li>
@@ -28,7 +28,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="col-5 pages">
+        <div className="col-6 col-sm-5 pages">
           <h5>Institucional</h5>
           <ul>
             <li>
