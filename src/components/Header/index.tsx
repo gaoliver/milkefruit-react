@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './header.scss';
 
 import logo from '../../assets/logo-shadow-realista.png';
+import { pages } from '../../__mock__/menu';
 
 function Header() {
   const [active, setActive] = useState(false);
@@ -31,21 +32,13 @@ function Header() {
       <img src={logo} alt="Logo Milk & Fruit" />
 
       <ul>
-        <li>
-          <a href="#">Início</a>
-        </li>
-        <li>
-          <a href="#">Cupons</a>
-        </li>
-        <li>
-          <a href="#">Cardápio</a>
-        </li>
-        <li>
-          <a href="#">Sobre nós</a>
-        </li>
-        <li>
-          <a href="#">Restaurante</a>
-        </li>
+        {pages.map((item) => {
+          return (
+            <li key={item.id}>
+              <a href={item.link}>{item.name}</a>
+            </li>
+          );
+        })}
         <li className="delivery">
           <a href="#">Delivery</a>
         </li>
