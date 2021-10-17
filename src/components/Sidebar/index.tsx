@@ -1,6 +1,6 @@
 import React from 'react';
 
-import "./sidebar.scss"
+import './sidebar.scss';
 
 function Sidebar() {
   return (
@@ -22,6 +22,9 @@ function Sidebar() {
           <a href="#">Restaurante</a>
         </li>
       </ul>
+      <div className="delivery">
+        <a href="#">Delivery</a>
+      </div>
     </div>
   );
 }
