@@ -43,13 +43,13 @@ header {
         padding-inline: 30px;
         padding-block: 10px;
         border-radius: 5px;
-        box-shadow: 0 0 3px #0005;
-        transition: ease-in-out 0.5s;
+        box-shadow: 0px 2px 3px 2px #0005;
+        transition: ease-in-out 0.3s;
     }
     .delivery a:hover {
         text-decoration: none;
-        padding-inline: 40px;
-        padding-block: 20px;
+        box-shadow: 0px 0px 1px 0px #0005;
+        color: #FFF8
     }
     .responsive-nav {
         display: none;
