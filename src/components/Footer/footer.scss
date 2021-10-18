@@ -3,16 +3,22 @@ footer {
     position: relative;
     bottom: 0;
     .pages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
         height: 200px;
-        margin-inline: 20px;
-        margin-block: 30px;
+        margin-block: 10px;
+        img {
+            width: 200px;
+            object-fit: contain;
+        }
         h5 {
-            color: white;
+            font-size: medium;
             font-weight: bold;
+            color: white;
         }
         ul {
-            width: 100%;
-            height: 100%;
             display: flex;
             flex-direction: column;
             gap: 5px;
@@ -28,10 +34,27 @@ footer {
                 }
             }
         }
+        .redes {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+        .divisor {
+            border-right: 1px solid white;
+            padding-right: 10px;
+            margin-right: 10px;
+        }
+        @media screen and (min-width: 770px) {
+            margin-inline: 10px;
+        }
+        @media screen and (max-width: 769px) {}
     }
     .bottom {
-        width: 98%;
         display: flex;
+        width: 98%;
+        height: 50px;
+        padding-top: 10px;
         justify-content: flex-end;
         color: white;
         padding-bottom: 10px;
